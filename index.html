@@ -1,170 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-    <title>BITE DELIGHT</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>BITE DELIGHT - Experience Culinary Excellence</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <nav class="navbar">
-    <div class="logo">
-<img src="images/logo.jpeg" alt="my sitelogo">
-    </div>
-    <ul class="nav-links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
- <section id="home" class="box-1">
-    <div class="section-container">
-      <div class="text-content">
-        <h2>Welcome to restaurant</h2>
-        <p>Where appeals and taste match.</p>
-      </div>
-      <img src="images/premium_photo.jpg" alt="Welcome Image" class="motto-img">
-    </div>
-</section>
 
-  <section id="about" class="box-1">
-    <div class="section-container">
-      <img src="images/WhatsApp Image 2025-05-18 at 8.05.26 PM.jpeg" alt="About Us" class="image-style">
-      <div class="text-content">
-        <h2>
-            <button class="about-button"> About Us</button>
-        </h2>
-        <p>We’re a restaurant that offers services locally and internationallly.</p>
-        <a>get drinks and food at your number one stop</a>
-        <p>We are committed to providing our customers with the best dining experience possible.</p>
-        <p>Our team of chefs uses only the freshest ingredients to create delicious meals that will satisfy.</p>
-      </div>
+  <header class="header">
+    <div class="logo" aria-label="Bite Delight logo">
+      <img src="images\logo image.jpg" alt="Labile Delight Logo" />
+      <h1>Labile Delight</h1>
     </div>
-</section>
-<section id="services" class="box-1">
-  <div class="section-container">  
-    <div class="service-list">
-      <h2>Our Services</h2>
-      <h2>We offer a variety of services to cater to your needs.</h2>
-      <h3>Food Catering</h3>
-      <p>We provide catering services for events of all sizes.</p>
-      <h2 class="title">Our Food Gallery</h2>
-      <div class="slider">
-        <div class="slides">
-          <div class="slide active">Slide 1
-            <img src="images/food 4.jpeg" alt="Food Image 1">
-          </div>
-          <div class="slide">Slide 2
-            <img src="images/food 3.jpeg" alt="Food Image 2">
-          </div>
-          <div class="slide">Slide 3</div>
-        </div>
-        <button class="prev">❮</button>
-        <button class="next">❯</button>
-      </div>
-      <div class="service-item">
-          <h3>Event Catering</h3>
-          <p>We cater for weddings, parties, and corporate events.</p>
-        </div>
-        <div class="service-item">
-          <h3>Private Dining</h3>
-          <p>Enjoy a private dining experience with our exclusive menu.</p>
-        </div>
 
+    <nav class="navbar" role="navigation" aria-label="Primary navigation">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#dining" class="nav-link">Dining</a>
+      <a href="#gallery" class="nav-link">Gallery</a>
+      <a href="#faq" class="nav-link">FAQs</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
 
+  <main class="container" role="main">
 
-          
-<div class="service-item">
- <h3>Food Delivery</h3>
-  <p>Get your favorite meals delivered to your doorstep.</p>
-          </div>
-          <div class="service-item">
-            <section class="service-list">
-            <h3>Dine-In</h3>
-            <div class="image-food">
-            <img src="images/FOOD.jpeg" alt="Dine-In" class="dine-image">
-           <img src="images/eating.jpg" alt="Services" class="image-service">
-            </div>
-            <p>Enjoy a delightful dining experience in our restaurant.</p>
-          </div>
-          <div class="service-item">
-            <h3>Takeaway</h3>
-            <p>Order your food and take it away at your convenience.</p>
-          </div>
-        <ul>
-          <li>parties</li>
-          <li>Catering Services</li>
-          <li>Event Hosting</li>
-        </ul>
-      </div>
-      <div class="faq">
-  <div class="faq-item" onclick="toggleFAQ(this)">
-    <div class="faq-question">
-      can i book a reservation online?
-      <span class="faq-icon">+</span>
-    </div>
-    <div class="faq-answer">You can book a vacation through our website .</div>
-  </div>
-
-  <div class="faq-item" onclick="toggleFAQ(this)">
-    <div class="faq-question">
-      Are your services available 24/7?
-      <span class="faq-icon">+</span>
-    </div>
-    <div class="faq-answer">Yes, we offer services both daytime and nighttime e.g dubai.</div>
-  </div>
-
-  <div class="faq-item" onclick="toggleFAQ(this)">
-    <div class="faq-question">
-      Do we offer delivery services?
-      <span class="faq-icon">+</span>
-    </div>
-    <div class="faq-answer">Delivery is done at a cost depending on your location.</div>
-  </div>
-
-  <div class="faq-item" onclick="toggleFAQ(this)">
-    <div class="faq-question">
-      Can we provide other services?
-      <span class="faq-icon">+</span>
-    </div>
-    <div class="faq-answer">Yes we do provide services in weddings,graduations and other public events that need catering .</div>
-  </div>
-</div>
+    <!-- Home -->
+    <section id="home" class="home-section" aria-label="Welcome section">
+      <h2>Welcome to Bite Delight</h2>
+      <p>Where passion meets the plate. Discover culinary excellence and unforgettable dining experiences.</p>
+      <a href="#services" class="btn-primary">Explore Our Services</a>
     </section>
-    <section id="contact">
-    <h2>Contact Us</h2>
-    <p><strong>Phone:</strong> +254758735829</p>
-    <p><strong>Email:</strong> reservations@bitedelight.com</p>
-    <p><strong>Address:</strong> OO1OO NAIROBI SOUTH B</p>
-  </section>
-   <footer class="footer-style">
-    <p>&cop</footer>y; 2025 Bite Delight. All rights reserved.</p>
-    <i class="fa-brands fa-x-twitter"></i>
+
+    <!-- About -->
+    <section id="about" class="about-section" aria-label="About Bite Delight">
+      <h2>About Us</h2>
+      <div class="about-content">
+        <img src="https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=800&q=80" alt="Chef preparing a meal" />
+        <div>
+          <p>Bite Delight has been serving delicious, high-quality meals to our community since 2010. Our team of expert chefs uses only the freshest ingredients to create mouthwatering dishes inspired by global flavors and local traditions.</p>
+          <p>We believe dining is more than just eating — it’s about making memories. Join us for an experience filled with warmth, flavor, and exceptional service.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services-section" aria-label="Our Services">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service-card" tabindex="0" aria-describedby="desc-dinein">
+          <img src="https://images.pexels.com/photos/28988083/pexels-photo-28988083/free-photo-of-elegant-dinner-table-setting-with-calla-lilies.jpeg" alt="Elegant dine-in setup" />
+          <h3>Dine-In Experience</h3>
+          <p id="desc-dinein">Enjoy a cozy and elegant atmosphere with personalized service for your perfect meal.</p>
+        </div>
+        <div class="service-card" tabindex="0" aria-describedby="desc-catering">
+          <img src="https://images.unsplash.com/photo-1506354666786-959d6d497f1a?auto=format&fit=crop&w=600&q=80" alt="Catering event" />
+          <h3>Catering Services</h3>
+          <p id="desc-catering">Professional catering for weddings, parties, and corporate events tailored to your needs.</p>
+        </div>
+        <div class="service-card" tabindex="0" aria-describedby="desc-delivery">
+          <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=600&q=80" alt="Food delivery package" />
+          <h3>Food Delivery</h3>
+          <p id="desc-delivery">Delicious meals delivered straight to your door, hot and fresh, whenever you crave.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dining Experience -->
+    <section id="dining" class="dining-section" aria-label="Dining Experience">
+      <h2>Dining Experience</h2>
+      <p>Choose your dining style and ambiance. Click on the options below to learn more.</p>
+      <div class="dining-options">
+        <button class="dining-btn" data-info="Enjoy a romantic dinner with candlelight, soft music, and exquisite dishes crafted just for you.">Romantic Dinner</button>
+        <button class="dining-btn" data-info="Bring your family together for a fun and relaxed meal with our kid-friendly menus and spacious seating.">Family Friendly</button>
+        <button class="dining-btn" data-info="Host business meetings or celebrations in our private rooms designed for comfort and professionalism.">Private Dining</button>
+      </div>
+      <div id="dining-info" class="dining-info" aria-live="polite"></div>
+    </section>
+
+    <!-- Gallery / Slider -->
+    <section id="gallery" class="gallery-section" aria-label="Food Gallery">
+      <h2>Food Gallery</h2>
+      <div class="slider" aria-live="polite" aria-atomic="true">
+        <div class="slides">
+          <div class="slide">
+            <img src="https://thepassportkitchen.com/wp-content/uploads/2024/05/Shutterstock_2276818215.jpg" alt="Tasty dessert" />
+          </div>
+          <div class="slide">
+            <img src="https://www.shutterstock.com/image-photo/salmon-steak-beautifully-plated-garnishes-600nw-2502134867.jpg" alt="Fresh salad bowl" />
+          </div>
+          <div class="slide">
+            <img src="https://www.culinaryspecialties.net/wp-content/uploads/2021/03/What-Sets-Our-Heat-Serve-Food-Apart-from-Microwave-Dinners-1.jpg" alt="Grilled steak with sides" />
+          </div>
+        </div>
+        <button class="prev" aria-label="Previous slide">❮</button>
+        <button class="next" aria-label="Next slide">❯</button>
+      </div>
+    </section>
+
+    <!-- FAQs -->
+    <section id="faq" class="faq-section" aria-label="Frequently Asked Questions">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item" tabindex="0" role="button" aria-expanded="false" aria-controls="answer1">
+        <div class="faq-question">Can I book a reservation online?</div>
+        <div class="faq-icon">+</div>
+      </div>
+      <div id="answer1" class="faq-answer" role="region" aria-live="polite">
+        Yes! You can easily book your table online via our website or by calling our reservations line.
+      </div>
+
+      <div class="faq-item" tabindex="0" role="button" aria-expanded="false" aria-controls="answer2">
+        <div class="faq-question">Are your services available 24/7?</div>
+        <div class="faq-icon">+</div>
+      </div>
+      <div id="answer2" class="faq-answer" role="region" aria-live="polite">
+        Our restaurant operates extended hours, including late nights on weekends and holidays.
+      </div>
+
+      <div class="faq-item" tabindex="0" role="button" aria-expanded="false" aria-controls="answer3">
+        <div class="faq-question">Do you offer delivery services?</div>
+        <div class="faq-icon">+</div>
+      </div>
+      <div id="answer3" class="faq-answer" role="region" aria-live="polite">
+        Yes, we offer delivery with fees depending on your location and order size.
+      </div>
+
+      <div class="faq-item" tabindex="0" role="button" aria-expanded="false" aria-controls="answer4">
+        <div class="faq-question">Do you cater for events?</div>
+        <div class="faq-icon">+</div>
+      </div>
+      <div id="answer4" class="faq-answer" role="region" aria-live="polite">
+        We provide catering services for weddings, graduations, corporate parties, and other special occasions.
+      </div>
+
+      <div id="faq-message" aria-live="polite" aria-atomic="true"></div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section" aria-label="Contact Information">
+      <h2>Contact Us</h2>
+      <p><strong>Phone:</strong> +254 758 735 829</p>
+      <p><strong>Email:</strong> reservations@bitedelight.com</p>
+      <p><strong>Address:</strong> 00100 Nairobi South B</p>
+    </section>
+
+  </main>
+
+  <footer class="footer" aria-label="Footer information">
+    <p>© 2025 Labille Delight. All rights reserved.</p>
+     <i class="fa-brands fa-x-twitter"></i>
   <i class="fa-brands fa-instagram" style="color: #B197FC;"></i>
   <i class="fa-brands fa-whatsapp" style="color: #FFD43B;"></i>
   <i class="fa-brands fa-facebook" style="color: #74C0FC;"></i>
-   </footer>
+  </footer>
 
-
-</body>
-<script>
-    function toggleFAQ(item) {
-      const answer = item.querySelector('.faq-answer');
-      const icon = item.querySelector('.faq-icon');
-
-      if (answer.style.display === "block") {
-        answer.style.display = "none";
-        icon.textContent = "+";
-      } else {
-        answer.style.display = "block";
-        icon.textContent = "−";
-      }
-    }
-  </script>
-<script src="js/script.js" ></script>
-
-</html>
+  <script src="script.js"></script>
 </body>
 </html>
