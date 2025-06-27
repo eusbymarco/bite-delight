@@ -343,6 +343,7 @@ nav.navbar a:focus {
     flex-direction: column;
   }
 }
+/* messege Section */
 .message-section {
   background-color: #f9f9f9;
   padding: 40px 20px;
@@ -416,5 +417,42 @@ nav.navbar a:focus {
   transform: scale(1.05);
   cursor: pointer;
 }
+#reservation {
+  padding: 40px 20px;
+  background-color: #fefae0;
+  text-align: center;
+}
+
+#reservation h2 {
+  color: #e63946;
+  margin-bottom: 20px;
+}
+
+#reservationForm {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#reservationForm input,
+#reservationForm button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+#reservationForm button {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#reservationForm button:hover {
+  background-color: #d62828;
+}
+
 
 
