@@ -453,6 +453,103 @@ nav.navbar a:focus {
 #reservationForm button:hover {
   background-color: #d62828;
 }
+.delivery-section {
+  padding: 60px 20px;
+  background-color: #fff8f2;
+  text-align: center;
+}
+
+.delivery-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #c94e4e;
+}
+
+.delivery-section p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.food-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.food-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 250px;
+  padding: 15px;
+  transition: transform 0.2s ease;
+}
+
+.food-card:hover {
+  transform: translateY(-5px);
+}
+
+.food-card img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.food-card h3 {
+  margin-top: 15px;
+  font-size: 1.3rem;
+  color: #444;
+}
+
+.food-card p {
+  font-weight: bold;
+  margin: 5px 0 15px;
+  color: #2e2e2e;
+}
+
+.order-btn {
+  background-color: #c94e4e;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.order-btn:hover {
+  background-color: #a73939;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.search-container input {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 250px;
+  font-size: 1rem;
+}
+
+.search-container button {
+  background-color: #c94e4e;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.search-container button:hover {
+  background-color: #a73939;
+}
 
 
 

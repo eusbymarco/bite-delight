@@ -80,3 +80,28 @@ diningButtons.forEach(btn => {
     btn.classList.add("active");
   });
 });
+document.addEventListener("DOMContentLoaded", () => {
+  const searchButton = document.getElementById("searchButton");
+  const searchInput = document.getElementById("searchInput");
+
+  searchButton.addEventListener("click", searchSite);
+
+  function searchSite() {
+    const query = searchInput.value.toLowerCase().trim();
+    const sections = document.querySelectorAll("section");
+
+    let found = false;
+
+    sections.forEach(section => {
+      const text = section.innerText.toLowerCase();
+      if (text.includes(query)) {
+        section.scrollIntoView({ behavior: 'smooth' });
+        found = true;
+      }
+    });
+
+    if (!found) {
+      alert("No matching content found.");
+    }
+  }
+});
